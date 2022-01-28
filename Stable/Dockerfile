@@ -25,6 +25,7 @@ COPY worker-proxy.inc /etc/rspamd/override.d/
 
 # Keep database and configuration persistent
 VOLUME /etc/rspamd/local.d
+VOLUME /etc/rspamd/override.d
 VOLUME /var/lib/rspamd
 
 # Port 11334 is for web frontend
